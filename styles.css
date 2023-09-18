@@ -1,0 +1,111 @@
+html {
+	font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	margin: 0px;
+}
+
+.whole-page {
+	display: flex;
+	background-color: rgb(255, 239, 239);
+	width: 80%;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	/* padding: 75px; */
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	background-image: url(images/toa-heftiba-QnUywvDdI1o-unsplash.jpg);
+	background-size: cover;
+	width: 30vw;
+	height: 100%;
+}
+.logo {
+	width: 200px;
+	height: 100%;
+}
+
+.sola {
+	padding: 10px;
+}
+
+.readability {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+	/* flex-direction: column; */
+	background: rgba(161, 70, 70, 0.2);
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 40vw;
+}
+
+fieldset {
+	border: 0;
+}
+
+.content > div {
+	/* border: solid black; */
+}
+
+.signup-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 25px;
+}
+
+.form-container > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 30px;
+}
+
+.form-container > div > div {
+	display: flex;
+	flex-direction: column;
+}
+
+#mailing-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 25px;
+}
+
+p {
+	padding-left: 25px;
+}
+
+.message {
+	padding-left: 25px;
+}
